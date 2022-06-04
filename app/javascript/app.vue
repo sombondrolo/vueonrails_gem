@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="Message">
     <p>{{ message }}</p>
   </div>
 </template>
@@ -18,5 +18,8 @@ export default {
 p {
   font-size: 2em;
   text-align: center;
+}
+div {
+  background-color: red;
 }
 </style>
